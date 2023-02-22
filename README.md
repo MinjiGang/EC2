@@ -6,6 +6,6 @@ systemctl restart sshd
 ```
 # EC2 Port Changing
 ``` 
-echo 'Port 2220' >> /etc/ssh/sshd_config
+echo 'Port [port]' >> /etc/ssh/sshd_config
 systemctl restart sshd
 ```
